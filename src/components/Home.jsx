@@ -1,6 +1,6 @@
 import React from 'react'
 import Product from './Product'
-
+import Ed from './ed';
 const Home = () => {
     return (
         <div>
@@ -13,17 +13,19 @@ const Home = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/assets/images/home/img1.jpg" class="d-block w-100" alt="IPhone" height="500px"/>
+                        <img src="/assets/images/home/img1.jpg" class="d-block w-100 img-fluid" alt="IPhone" />
     </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/home/img2.jpg" class="d-block w-100" alt="IPhone" height="500px"/>
+                            <img src="/assets/images/home/img2.jpg" class="d-block w-100 img-fluid" alt="IPhone" />
     </div>
                             <div class="carousel-item">
-                                <img src="/assets/images/home/img3.jpg" class="d-block w-100" alt="IPhone" height="500px"/>
+                                <img src="/assets/images/home/img3.jpg" class="d-block w-100 img-fluid" alt="IPhone" />
     </div>
                             <div class="carousel-item">
-                                <img src="/assets/images/home/img4.jpg" class="d-block w-100" alt="IPhone" height="500px"/>
+                                <img src="/assets/images/home/img4.jpg" class="d-block w-100 img-fluid" alt="IPhone" />
     </div>
+
+    
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,7 +36,8 @@ const Home = () => {
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <Product/>
+                        {/* <Product/> */}
+                        <Ed />
                     </div>
                     )
 }

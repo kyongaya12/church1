@@ -9,12 +9,23 @@ const About = () => {
                     <div className="col-md-6">
                         <h1 className="text-primary fw-bold mb-4">About Us</h1>
                         <p className="lead mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae earum rem doloremque, nihil delectus ullam error consectetur? Dicta, non exercitationem in consectetur totam dolorum at voluptate laudantium aliquam, officiis perspiciatis molestias reiciendis consequuntur ullam perferendis velit blanditiis distinctio assumenda a maxime reprehenderit atque. Nam eius rerum distinctio, a illo earum, optio molestias nostrum maxime quibusdam delectus, adipisci impedit? Nam corporis reiciendis minus quod eaque, laborum veritatis voluptatibus id maiores tempore accusantium recusandae perspiciatis, officia cum ad maxime fuga repellendus a magni consequatur. Unde adipisci hic provident est sint corporis, dolorem esse autem soluta molestiae optio quisquam eligendi obcaecati minima?
+                        에드의 사역은 세계 끝까지 그를 이끄는 성령의 힘에 의해 이루어진 병유와 해방의 복음을 전파하는 데에 초점을 맞추고 있습니다.</p>
+                        <p> 미국부터 도미니카 공화국, 에콰도르, 멕시코, 인도, 파키스탄, 가나, 나이지리아, 그리고 리베리아, 케냐, 우간다, 말라위, 탄자니아, 르완다, 아랍 에미리트, 아이티, 필리핀과 같은 다른 국가에서도 그의 사역을 요청받아 강연하고 있습니다.</p>
+                        <p>그는 기적의 표적들이 그의 사역을 따르며 10만 명에 달하는 대규모 기적의 크루세이드를 진행하여 다양한 나라들을 하나님의 나라로 표식을 남기고 있습니다. </p>
+                        <p>병든 자들이 치유되고, 맹인들이 보이고, 귀농이 들리며, 벙어리가 말하며, 절름발이가 걷고, 악령들이 쫓겨나며, 사탄의 저주가 깨지며, 심지어 죽은 자들도 부활합니다.
+                         이 모든 것들은 성령의 능력과 예수 그리스도 우리 주님의 이름으로 이루어지는 것입니다.</p>
+
+<p>바쁜 국제 일정 외에도, 프로펫 에드는 뉴욕과 텍사스에 다문화적인 교회들을 지휘하고 있습니다. 교회 구성원으로는 21개국 이상의 국가들이 참여하고 있습니다. 또한, 에콰도르, 가나, 파키스탄 등 세계 여러 지점에 다른 지점들도 있습니다. </p>
+<p>그는 예배와 찬양을 중요시하며, 이는 성령의 강한 동참을 일으킵니다. 사람들은 하나님의 능력에 엎드려 울며 주 예수 그리스도 앞에 숙연합니다. 또한, 지식의 말씀과 표적, 기적이 강하게 나타나기 시작합니다. 비전, 천사의 나타남, 초자연적 체중 감소, 하늘에서 떨어지는 금가루 등이 보고되었습니다. 돈이 비어있는 지갑에서 초자연적으로 나타난 적도 있습니다. </p>
+<p>그는 성령의 능력에 대해 명징히 알고 있으며, 복음화 모임, 회의, 세미나, 워크샵을 통해 목사들과 지도자들을 세계적으로 장비시키는 데에 열정을 가지고 있습니다. 요즘에는 그의 사역이 전 세계적으로 확장되고 업무 부담이 더해지지만, "이것은 우리의 시대입니다. 사도들은 자신들의 시대를 가지고 그들의 일을 잘 해왔습니다. 그러나 하나님은 예수를 위해 그들의 시대를 표식지었던 것처럼, 우리에게도 우리의 시대를 표식하도록 의지하고 계십니다"라고 말합니다.</p>
+
+<p>프로펫 에드는 아내 캐롤과 30년 이상 함께하며 결혼 생활을 영위하고 있으며, 그들은 절개하는 하나님을 경외하는 아름다운 세 자녀, 저스틴, 가브리엘, 한나를 두고 있습니다. 그는 자주 기적 크루세이드에서 사람들에게 말씀할 때 "우리의 가장 친한 친구인 성령께 감사와 찬양을 보내 주세요. 그분께서 우리와 함께 계시고 행하신 일들을 인정해 주세요"라고 말합니다.
+
                         </p>
                         <NavLink to="/contact" className="btn btn-outline-primary px-3">Contact Us</NavLink>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center">
-                        <img src="/assets/images/about.png" alt="About Us" height="400px" width="400px" />
+                    <div className="col-md-6 ">
+                        <img src="/assets/images/home/ed-teaching.JPG" alt="About Us" className="img-fluid" />
                     </div>
                 </div>
             </div>

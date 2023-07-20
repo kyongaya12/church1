@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Product from './components/Product'
 import Contact from './components/Contact'
+import Video from './components/Video'
 import { Redirect, Route, Switch } from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
 import Cart from './components/Cart';
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/products/:id" component={ProductDetail} />
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
+        <Route exact path="/video" component={Video} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />

@@ -7,7 +7,7 @@ import Signup from './buttons/Signup'
 const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid py-2">
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,12 +25,15 @@ const Header = () => {
                                 <NavLink className="nav-link" to="/about">About</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink className="nav-link" to="/video">Video</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                             
                             
                         </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">APPLE MART</NavLink>
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 신쳐로낼리 </NavLink>
                     <Login/>
                     <Signup/>
                     <CartBtn/>
