@@ -36,9 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.bg-fire{
+  background-image:url(./images/cross.jpg);
+  width:100%;
+  height:100%;
+  background-size:cover;
+  padding:50px;
+}
+
 .bg{
   background-image:url(./images/img21.jpg);
   width:100%;
   height:100%;
   background-size:cover;
 }
+
+
+
+.bg-footer{
+  background-image:url(./images/fire-anointing.jpg);
+  height:100%;
+  width:100%;
+  background-size:cover;
+  color:white;
+  
+}
+.vk-bg-container{
+  color:#000007;
+  font-size:1.5rem;
+  line-height: 150%;
+  text-align: center;
+}
+.vkbg{
+  background:white;
+  border-radius:3rem;
+}
+.vk-title1{
+  padding:40px 30px 30px 30px;
+}
+.vk-title2{
+  padding:30px;
+  text-align: center;
+}
+
+.vk-bottom-margin{margin-bottom: 70px;}

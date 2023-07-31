@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom'
 import CartBtn from './buttons/CartBtn'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
+import Youtube from './buttons/youtube'
+import Website from './buttons/website'
+import Market from './buttons/market'
 
 const Header = () => {
     return (
@@ -18,25 +21,28 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link" to="/products">Product</NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/about">About</NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link" to="/video">Video</NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </li>
                             
                             
                         </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 신쳐로낼리 </NavLink>
-                    <Login/>
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 씬트로넬리 </NavLink>
+                    {/* <Login/>
                     <Signup/>
-                    <CartBtn/>
+                    <CartBtn/> */}
+                    <Youtube/>
+                    <Website/>
+                    <Market/>
                     </div>
                 </div>
             </nav>

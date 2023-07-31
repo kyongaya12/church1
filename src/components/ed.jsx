@@ -7,51 +7,57 @@ const ed = () => {
     
   return (
     <div >
-        <section className="bg img-responsive"> 
+        <section className="bg-fire img-fluid"> 
      
-     <div className="container">
-                <div className="row">
+     <div className="container vk-bg-container" >
+     
+                <div className="row p4-4 ">
                     <div className="col-md-12 py-4">
-                        <h1 className="text-primary fw-bold mb-4"> 세계 힐링 국제교회 </h1>
+                        <h1 className="text-primary fw-bold mb-4 text-center vk-title1"> 에드 씬트로넬리 교회 </h1>
+<p> 저의 휍사이트 방문을 감사드립니다. 이 교회는 사도 바울이 사역하신 치유, 축사, 예언 이 있는 살아서 역사하는 성령 사역이 있는 교회로써
+하나님의 말씀이 살아서 움직이는 교회입니다.</p>
+  
+<p>  이 교회는 성령님의 인도아래, 씨니어 예언자이신 에드 씬트로넬리께서 지휘 하시고 쥬이어 예언자이신 조지 땡찬은 뉴욕에서 사역 하시는 분입니다. 
 
-                        <p className="lead mb-4">
-     
-우리를 방문하실 것을 환영합니다. 우리의 모든 예배는 치유, 해방, 예언 그리고 통쾌함의 흐름을 갖고 있습니다. 우리는 여러분이 오셔서 여러분의 상황을 변화시킬 주님의 말씀이나 손길을 받으실 것을 초대합니다.</p>
+예언자 에드님은   성령님의 인도 하심에 따라 미국 여러곳을 집회 
+뉴욕, 펜셀베니아, 시카고, 캘리포니아, 플로리다, 미시건, 여러 곳을 순회하시고, 세계여러나라들 순회 하십니다. </p>
+ 
+<p>제가 당신을 에드 씬트로넬리 사역장에 초대하고 싶습니다. 만일 여러분이 에드 씬트로넬리 사역에 관심이 있어시면, 연락하시길 바랍니다.</p>
 
-<p>우리의 프로펫 에드가 항상 말하듯이, 여러분은 우리의 "통쾌함과 해결의 투기장"에 환영받습니다!</p>
-
-
-</div>
-<div className="row">
-<div className="col-8">
-<h2> 뉴욕 지부본부</h2>
-SERVICES:
-<p>Every Sunday at 11am</p>
-<p>at Sheraton LaGuardia East Hotel in Flushing, NY- Ballroom</p>
-<p>(135-20 39th Ave, Queens, NY 11354)</p>
-    </div>
-    <div className="col-4">
-      One of two columns
-    </div>
-    
 </div>
 
 ​</div>
-        </div></section>
 
-        <div className="row">
+        </div>
+        
+        </section>
+
+        <div className="row py-4">          
         <div class="row justify-content-evenly py-4">
     <div class="col-4 ">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Cclny9iY22c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="col-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Cclny9iY22c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-  </div>
-
+   
+      </div>
+      
+      <div class="row justify-content-evenly py-4">
+    <div class="col-4 ">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WM8pTpAnkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-4">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2XduegbqFTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+   
+      </div>
 
       
         </div>
+
+
+   
   </div>
   )
 }
