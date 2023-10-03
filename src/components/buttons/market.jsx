@@ -1,17 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { useSelector } from 'react-redux'
 
-const market = () => {
+
+const Market = () => {
   return (
     <div>
-    
-
-            <NavLink to="/market" className="btn btn-outline-primary ms-2">
-            market
-            </NavLink>
+            <a href="https://www.edcitronnelliministries.com/events" className="btn btn-outline-primary ms-2" target="_blank">
+        스케줄
+        </a>
     </div>
   )
 }
 
-export default market
+export default Market

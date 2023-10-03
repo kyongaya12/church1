@@ -12,44 +12,42 @@ var bgColors = { "Default": "#81b71a",
 const Footer = () => {
     return (
         <div style={{backgroundColor: bgColors.black}}>
-                 <section className=""> 
+             
         
-        <div className="container " >
-                   <div className="row bg-footer">
-                       <div className="col-md-12 ">                              
+        <div className="container bg-footer" >
+                   <div className="row ">
+                       <div className="col-md-12" >                              
+     <h2 class="text-md-center py-5">예배 장소 </h2>
+   </div>
    </div>
    <div className="row ">
-   <h2 class="text-md-center py-5">규칙적으로 예배드리는 장소 </h2>
-   </div>
-   <div className="row vk-bottom-margin">
    <div className="col-md-4">
    <h3> 뉴욕: 프러싱</h3>
-   Sunday 11 AM<br/>
+   <p>Time:  Sunday 11:00 AM</p>
    Sheraton LaGuardia East Hotel 7Floor<br />
    135-20 39th Ave, Flushing, NY 11354
    
        </div>
-       <div className="col-md-4">
+    <div className="col-md-4">
          <h3>뉴욕: 브랑스</h3>
-       Wendesday 7:30 PM<br/>
+     <p>Time:  Wendesday 7:30 PM</p>
       Residence Inn by Marriott New York <br/>
       at Metro Ctr Atrium 1776<br/>
    Eastchester Road, Bronx, NY 10461
    </div>
    
-       <div className="col-md-4">
+     <div className="col-md-4">
          <h3>텍사스</h3>
-       Sunday 11 AM, Friday 7:30 PM<br/> 
+      <p> Sunday 11 AM, Friday 7:30 PM</p>
        ECM Freedom Arena<br/>
    1701 N. Fielder Rd<br/>
    Arlington, TX 76012
        </div>
        
    </div>
-   
+   </div>
    ​</div>
-           </div></section>
-        </div>
+       
     )
 }
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-const youtube = () => {
+const Youtube = () => {
   return (
     <div>
-          <NavLink to="/youtube" className="btn btn-outline-primary ms-2">
-           youtube
-            </NavLink>
+         <a href="https://www.youtube.com/@EdCitronnelliMinistries" className="btn btn-outline-primary ms-2" target="_blank">
+         유튜브
+        </a>
     </div>
   )
 }
 
-export default youtube
+export default Youtube

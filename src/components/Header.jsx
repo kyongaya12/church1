@@ -3,21 +3,22 @@ import { NavLink } from 'react-router-dom'
 import CartBtn from './buttons/CartBtn'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
-import Youtube from './buttons/youtube'
-import Website from './buttons/website'
-import Market from './buttons/market'
+import Youtube from './buttons/Youtube'
+import Website from './buttons/Website'
+import Market from './buttons/Market'
 
 const Header = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid py-2">
-                    
+                  
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
+               
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
@@ -27,6 +28,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/about">About</NavLink>
                             </li>
+                         
                             {/* <li className="nav-item">
                                 <NavLink className="nav-link" to="/video">Video</NavLink>
                             </li> */}
@@ -35,15 +37,15 @@ const Header = () => {
                             </li>
                             
                             
-                        </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 씬트로넬리 </NavLink>
+                        </ul>     
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">에드 신처로넬리</NavLink> 
                     {/* <Login/>
                     <Signup/>
                     <CartBtn/> */}
                     <Youtube/>
                     <Website/>
-                    <Market/>
-                    </div>
+                    <Market/></div>
+                 
                 </div>
             </nav>
         </>
